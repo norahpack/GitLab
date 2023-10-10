@@ -11,11 +11,31 @@ xanda_0000_movie_processing?
 (For this and future questions, the first 5 characters is plenty - neither
 Git nor I need the whole SHA.)
 
+9b257
+
 2. What is the SHA for the last commit associated with line 9 of this file?
+
+b2ed3
 
 3. What did line 12 of this file say in commit d1d83?
 
+"2. I should really finish writing this"
+
 4. What changed between commit e474c and 82045?
+
+In the process_movie_data.py file, 
+
+gross_sort = lambda x : x["Gross"] 
+became
+gross_sort = lambda x : int(x["Gross"])
+
+and 
+
+top_five = rows[:-5:-1] 
+became
+top_five = rows[:-6:-1]
+
+(which is good, because the new line actually gives us five values instead of four)
 
 ## Predicting merges
 
