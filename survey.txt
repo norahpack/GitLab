@@ -1,5 +1,5 @@
 1. What is your name?
-Answer: Norah Pack
+Answer: Norah Catherine Pack
 
 2. What is your favorite color?
 Answer: Light pink
@@ -7,6 +7,6 @@ Answer: Light pink
 3. What is your favorite food?
 Answer: Pho
 
-4. What's one place you've never been but would like to visit?
+4. Which country's capital is Buenos Aires?
 Answer: Argentina
 
