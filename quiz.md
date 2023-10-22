@@ -17,8 +17,6 @@ Git nor I need the whole SHA.)
 
 4. What changed between commit e474c and 82045?
 
-Two things changed between e474c and 82046. From e474c to 8204, the line "gross_sort = lambda x : x["Gross"]" changed to "gross_sort = lambda x : int(x["Gross"])", and the line "top_five = rows[:-5:-1]" changed to "top_five = rows[:-6:-1]".
-
 
 ## Predicting merges
 
